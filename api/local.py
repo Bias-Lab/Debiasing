@@ -11,9 +11,6 @@ def generate_response_local(model: str, query: str) -> str:
             }
         ],
         "stream": False,
-        "options": {
-            "max_tokens": 50
-        }
     }
 
     response = requests.post(url, json=data)
