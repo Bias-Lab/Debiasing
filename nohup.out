@@ -246,3 +246,29 @@ Traceback (most recent call last):
   File "/home/hieuminh65/LLM-Debiasing/api/remote.py", line 1, in <module>
     from litellm import completion
 ModuleNotFoundError: No module named 'litellm'
+[main 46ddbb6] add mistral data
+ 1 file changed, 11 insertions(+)
+[?25l⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠧ [?25h[?25l[2K[1G⠇ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠋ [?25h[?25l[2K[1G⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠧ [?25h[?25l[2K[1G⠇ [?25h[?25l[2K[1G⠏ [?25h[?25l[?25l[2K[1G[?25h[2K[1G[?25h This[?25l[?25h instruction[?25l[?25h m[?25l[?25him[?25l[?25hics[?25l[?25h a[?25l[?25h simple[?25l[?25h command[?25l[?25h similar[?25l[?25h to[?25l[?25h the[?25l[?25h provided[?25l[?25h example[?25l[?25h.[?25l[?25h It[?25l[?25h is[?25l[?25h straightforward[?25l[?25h and[?25l[?25h does[?25l[?25h not[?25l[?25h contain[?25l[?25h any[?25l[?25h further[?25l[?25h context[?25l[?25h or[?25l[?25h complexity[?25l[?25h.[?25l[?25h The[?25l[?25h user[?25l[?25h seems[?25l[?25h to[?25l[?25h be[?25l[?25h indicating[?25l[?25h an[?25l[?25h intention[?25l[?25h to[?25l[?25h end[?25l[?25h the[?25l[?25h interaction[?25l[?25h,[?25l[?25h represented[?25l[?25h by[?25l[?25h the[?25l[?25h word[?25l[?25h "[?25l[?25hbye[?25l[?25h."[?25l[?25h
+[?25l[?25h
+[?25l[?25hIf[?25l[?25h this[?25l[?25h were[?25l[?25h part[?25l[?25h of[?25l[?25h a[?25l[?25h script[?25l[?25hed[?25l[?25h conversation[?25l[?25h in[?25l[?25h software[?25l[?25h development[?25l[?25h,[?25l[?25h you[?25l[?25h might[?25l[?25h have[?25l[?25h functions[?25l[?25h that[?25l[?25h handle[?25l[?25h such[?25l[?25h a[?25l[?25h simple[?25l[?25h input[?25l[?25h:[?25l[?25h
+[?25l[?25h
+[?25l[?25h```[?25l[?25hpython[?25l[?25h
+[?25l[?25hdef[?25l[?25h say[?25l[?25h_[?25l[?25hgood[?25l[?25hbye[?25l[?25h([?25l[?25huser[?25l[?25h_[?25l[?25hinput[?25l[?25h):[?25l[?25h
+[?25l[?25h   [?25l[?25h if[?25l[?25h user[?25l[?25h_[?25l[?25hinput[?25l[?25h ==[?25l[?25h "/[?25l[?25hbye[?25l[?25h":[?25l[?25h
+[?25l[?25h       [?25l[?25h print[?25l[?25h("[?25l[?25hGood[?25l[?25hbye[?25l[?25h![?25l[?25h")[?25l[?25h
+[?25l[?25h       [?25l[?25h return[?25l[?25h "[?25l[?25hBy[?25l[?25he[?25l[?25h!"[?25l[?25h
+[?25l[?25h   [?25l[?25h else[?25l[?25h:[?25l[?25h
+[?25l[?25h       [?25l[?25h return[?25l[?25h "[?25l[?25hHello[?25l[?25h!"[?25l[?25h [?25l[?25h #[?25l[?25h Assuming[?25l[?25h a[?25l[?25h default[?25l[?25h gre[?25l[?25heting[?25l[?25h.[?25l[?25h
+[?25l[?25h
+[?25l[?25h#[?25l[?25h Us[?25l[?25hage[?25l[?25h example[?25l[?25h:[?25l[?25h
+[?25l[?25hresponse[?25l[?25h =[?25l[?25h say[?25l[?25h_[?25l[?25hgood[?25l[?25hbye[?25l[?25h("/[?25l[?25hbye[?25l[?25h")[?25l[?25h
+[?25l[?25hprint[?25l[?25h([?25l[?25hresponse[?25l[?25h)[?25l[?25h [?25l[?25h #[?25l[?25h Output[?25l[?25hs[?25l[?25h:[?25l[?25h Good[?25l[?25hbye[?25l[?25h![?25l[?25h
+[?25l[?25h```[?25l[?25h
+
+[?25l[?25hRunning phi3 done
+Traceback (most recent call last):
+  File "/home/hieuminh65/LLM-Debiasing/main.py", line 11, in <module>
+    from api.remote import generate_response_api
+  File "/home/hieuminh65/LLM-Debiasing/api/remote.py", line 1, in <module>
+    from litellm import completion
+ModuleNotFoundError: No module named 'litellm'
