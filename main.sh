@@ -51,16 +51,16 @@ git add .
 git commit -m "add phi3 data"
 
 # Qwen2
-echo "/bye" | ollama run qwen2
-export MODEL=qwen2
-nohup python3 main.py --mode=local &
-echo "Running qwen2 done"
+#echo "/bye" | ollama run qwen2
+#export MODEL=qwen2
+#nohup python3 main.py --mode=local &
+#echo "Running qwen2 done"
 
-pid=$!
-wait $pid
+#pid=$!
+#wait $pid
 
-git add .
-git commit -m "add mistral data"
+#git add .
+#git commit -m "add mistral data"
 
 # Commit the changes and push to github
 git push origin main
