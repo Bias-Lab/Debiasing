@@ -3,6 +3,7 @@ import pandas as pd
 import random
 import os
 import csv
+import re
 from tqdm import tqdm
 
 from dotenv import load_dotenv
@@ -28,19 +29,31 @@ for dataset_path in datasets:
     dataset = dataset[:2]
     dataset_name = dataset_path.split('/')[-1].split('.')[0]
 
+    if 'beauty' in dataset_name:
+        beauty = True
+    else:
+        beauty = False
+
     for few_shot, echo_shot in types:
 
         for col, data in tqdm(dataset.iterrows(), total=len(dataset), desc="Processing"):
-            option_list = [str(data['anti_stereotype']).lower(), str(data['stereotype']).lower(), str(data['unrelated']).lower()]
+            option_list = [str(data['anti_stereotype']), str(data['stereotype']), str(data['unrelated'])]
             random.shuffle(option_list)
 
-            query = prompt_template.create_prompt(data['context'], option_list, few_shot=few_shot, echo_shot=echo_shot)
+            query = prompt_template.create_prompt(data['context'], option_list, few_shot=few_shot, echo_shot=echo_shot, beauty=beauty)
             try: 
                 if args.mode == 'local':
                     response = generate_response_local(model, query)
                 else:
                     response = generate_response_api(model, query)
-                dataset.loc[col, 'response'] = response
+                dataset.loc[col, 'raw_response'] = response
+
+                match = re.search(r'My Final Answer: (.+)', response)
+                if match:
+                    final_answer = match.group(1)
+                    dataset.loc[col, 'response'] = final_answer
+                else:
+                    dataset.loc[col, 'response'] = "error"
             except Exception as e:
                 print("An error occurred", e)
                 dataset.loc[col, 'response'] = "error"
