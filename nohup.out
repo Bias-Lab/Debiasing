@@ -40,4 +40,27 @@ ModuleNotFoundError: No module named 'litellm'
 Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:03<00:03,  3.15s/it]Processing: 100%|██████████| 2/2 [00:07<00:00,  3.70s/it]Processing: 100%|██████████| 2/2 [00:07<00:00,  3.62s/it]
 Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:04<00:04,  4.87s/it]Processing: 100%|██████████| 2/2 [00:11<00:00,  5.94s/it]Processing: 100%|██████████| 2/2 [00:11<00:00,  5.78s/it]
 Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:03<00:03,  3.28s/it]Processing: 100%|██████████| 2/2 [00:07<00:00,  3.62s/it]Processing: 100%|██████████| 2/2 [00:07<00:00,  3.57s/it]
-Processing:   0%|          | 0/2 [00:00<?, ?it/s]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:06<00:06,  6.88s/it]Processing:  50%|█████     | 1/2 [00:13<00:13, 13.84s/it]Processing:  50%|█████     | 1/2 [00:19<00:19, 19.23s/it]Processing: 100%|██████████| 2/2 [00:33<00:00, 18.34s/it]Processing: 100%|██████████| 2/2 [00:33<00:00, 16.62s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:33<00:00, 17.52s/it]Processing: 100%|██████████| 2/2 [00:33<00:00, 16.97s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:37<00:00, 18.88s/it]Processing: 100%|██████████| 2/2 [00:37<00:00, 18.93s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:18<00:18, 18.88s/it]Processing:  50%|█████     | 1/2 [00:18<00:18, 18.39s/it]Processing:  50%|█████     | 1/2 [00:17<00:17, 17.80s/it]Processing: 100%|██████████| 2/2 [00:36<00:00, 18.03s/it]Processing: 100%|██████████| 2/2 [00:36<00:00, 18.15s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:35<00:00, 17.91s/it]Processing: 100%|██████████| 2/2 [00:35<00:00, 17.98s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:37<00:00, 18.96s/it]Processing: 100%|██████████| 2/2 [00:37<00:00, 18.78s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:20<00:20, 20.81s/it]Processing:  50%|█████     | 1/2 [00:20<00:20, 20.84s/it]Processing:  50%|█████     | 1/2 [00:20<00:20, 20.45s/it]Processing: 100%|██████████| 2/2 [00:40<00:00, 20.45s/it]Processing: 100%|██████████| 2/2 [00:41<00:00, 20.50s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:41<00:00, 20.99s/it]Processing: 100%|██████████| 2/2 [00:41<00:00, 20.97s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:41<00:00, 20.71s/it]Processing: 100%|██████████| 2/2 [00:41<00:00, 20.67s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:20<00:20, 20.41s/it]Processing:  50%|█████     | 1/2 [00:20<00:20, 20.07s/it]Processing:  50%|█████     | 1/2 [00:20<00:20, 20.19s/it]Processing: 100%|██████████| 2/2 [00:40<00:00, 20.36s/it]Processing: 100%|██████████| 2/2 [00:40<00:00, 20.37s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:40<00:00, 20.03s/it]Processing: 100%|██████████| 2/2 [00:40<00:00, 20.04s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:40<00:00, 20.03s/it]Processing: 100%|██████████| 2/2 [00:40<00:00, 20.05s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:20<00:20, 20.32s/it]Processing:  50%|█████     | 1/2 [00:20<00:20, 20.04s/it]Processing:  50%|█████     | 1/2 [00:19<00:19, 19.85s/it]Processing: 100%|██████████| 2/2 [00:39<00:00, 19.53s/it]Processing: 100%|██████████| 2/2 [00:39<00:00, 19.65s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:38<00:00, 19.38s/it]Processing: 100%|██████████| 2/2 [00:38<00:00, 19.48s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing: 100%|██████████| 2/2 [00:38<00:00, 19.03s/it]Processing: 100%|██████████| 2/2 [00:38<00:00, 19.15s/it]
+Processing:   0%|          | 0/2 [00:00<?, ?it/s]Processing:  50%|█████     | 1/2 [00:17<00:17, 17.92s/it]Processing:  50%|█████     | 1/2 [00:19<00:19, 19.59s/it]Processing:  50%|█████     | 1/2 [00:19<00:19, 19.89s/it]Processing: 100%|██████████| 2/2 [00:37<00:00, 19.17s/it]Processing: 100%|██████████| 2/2 [00:37<00:00, 18.98s/it]
+Processing: 100%|██████████| 2/2 [00:38<00:00, 19.31s/it]Processing: 100%|██████████| 2/2 [00:38<00:00, 19.35s/it]
+Processing: 100%|██████████| 2/2 [00:39<00:00, 19.86s/it]Processing: 100%|██████████| 2/2 [00:39<00:00, 19.87s/it]
+Traceback (most recent call last):
+  File "/home/hieuminh65/LLM-Debiasing/main.py", line 11, in <module>
+    from api.remote import generate_response_api
+  File "/home/hieuminh65/LLM-Debiasing/api/remote.py", line 1, in <module>
+    from litellm import completion
+ModuleNotFoundError: No module named 'litellm'
