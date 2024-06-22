@@ -168,3 +168,20 @@ ModuleNotFoundError: No module named 'litellm'
 Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.77s/it]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.77s/it]
 Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.05s/it]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.05s/it]
 Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.37s/it]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.37s/it]
+[main fe2108a] add gemma data
+ 7 files changed, 110 insertions(+), 95 deletions(-)
+ rewrite results/gemma/few_shot_beauty_dataset.csv (85%)
+ rewrite results/gemma/few_shot_echo_shot_beauty_dataset.csv (86%)
+ rewrite results/gemma/few_shot_echo_shot_stereoset.csv (81%)
+ rewrite results/gemma/few_shot_stereoset.csv (89%)
+ rewrite results/gemma/zero_shot_beauty_dataset.csv (88%)
+ rewrite results/gemma/zero_shot_stereoset.csv (90%)
+[?25l⠙ [?25h[?25l[2K[1G⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠇ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠋ [?25h[?25l[2K[1G⠋ [?25h[?25l[2K[1G⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠇ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠋ [?25h[?25l[2K[1G⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[?25l[2K[1G[?25h[2K[1G[?25h Good[?25l[?25hbye[?25l[?25h![?25l[?25h If[?25l[?25h you[?25l[?25h have[?25l[?25h any[?25l[?25h more[?25l[?25h questions[?25l[?25h or[?25l[?25h if[?25l[?25h there[?25l[?25h'[?25l[?25hs[?25l[?25h anything[?25l[?25h else[?25l[?25h I[?25l[?25h can[?25l[?25h help[?25l[?25h with[?25l[?25h,[?25l[?25h feel[?25l[?25h free[?25l[?25h to[?25l[?25h ask[?25l[?25h![?25l[?25h Have[?25l[?25h a[?25l[?25h great[?25l[?25h day[?25l[?25h![?25l[?25h
+
+[?25l[?25hRunning mistral done
+Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.53s/it]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.53s/it]
+Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.28s/it]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.28s/it]
+Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.56s/it]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.56s/it]
+Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.65s/it]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.66s/it]
+Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.81s/it]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.81s/it]
+Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.87s/it]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.87s/it]
