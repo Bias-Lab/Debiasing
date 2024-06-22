@@ -66,4 +66,4 @@ for dataset_path in datasets:
             file_name = f'{output_dir}/few_shot_echo_shot_{dataset_name}.csv' if echo_shot else f'{output_dir}/few_shot_{dataset_name}.csv'
         else:
             file_name = f'{output_dir}/zero_shot_{dataset_name}.csv'
-        dataset.to_csv(file_name, index=True, quoting=csv.QUOTE_NONNUMERIC, index_label='index')
+        dataset.to_csv(file_name, quoting=csv.QUOTE_NONNUMERIC)
