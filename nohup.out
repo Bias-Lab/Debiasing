@@ -205,3 +205,22 @@ ModuleNotFoundError: No module named 'litellm'
 Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.40s/it]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.40s/it]
 Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.47s/it]Processing: 100%|██████████| 1/1 [00:02<00:00,  2.47s/it]
 Processing:   0%|          | 0/1 [00:00<?, ?it/s]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.64s/it]Processing: 100%|██████████| 1/1 [00:03<00:00,  3.65s/it]
+[main aa27477] add phi3 data
+ 7 files changed, 114 insertions(+), 78 deletions(-)
+ rewrite results/phi3/few_shot_beauty_dataset.csv (90%)
+ rewrite results/phi3/few_shot_echo_shot_beauty_dataset.csv (89%)
+ rewrite results/phi3/few_shot_echo_shot_stereoset.csv (97%)
+ rewrite results/phi3/few_shot_stereoset.csv (97%)
+ rewrite results/phi3/zero_shot_beauty_dataset.csv (88%)
+ rewrite results/phi3/zero_shot_stereoset.csv (97%)
+To https://github.com/hieuminh65/LLM-Debiasing.git
+   09a1de9..aa27477  main -> main
+[?25l⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠇ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠋ [?25h[?25l[2K[1G⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠧ [?25h[?25l[2K[1G⠧ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠧ [?25h[?25l[2K[1G⠇ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠋ [?25h[?25l[2K[1G⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠦ [?25h[?25l[?25l[2K[1G[?25h[2K[1G[?25hIt[?25l[?25h was[?25l[?25h nice[?25l[?25h chatting[?25l[?25h with[?25l[?25h you[?25l[?25h![?25l[?25h Have[?25l[?25h a[?25l[?25h great[?25l[?25h day[?25l[?25h,[?25l[?25h and[?25l[?25h feel[?25l[?25h free[?25l[?25h to[?25l[?25h come[?25l[?25h back[?25l[?25h anytime[?25l[?25h for[?25l[?25h more[?25l[?25h conversations[?25l[?25h.[?25l[?25h Bye[?25l[?25h for[?25l[?25h now[?25l[?25h![?25l[?25h
+
+[?25l[?25hRunning llama3 done
+Traceback (most recent call last):
+  File "/home/hieuminh65/LLM-Debiasing/main.py", line 11, in <module>
+    from api.remote import generate_response_api
+  File "/home/hieuminh65/LLM-Debiasing/api/remote.py", line 1, in <module>
+    from litellm import completion
+ModuleNotFoundError: No module named 'litellm'
