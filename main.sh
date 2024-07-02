@@ -10,7 +10,7 @@ wait $pid
 echo "Running llama3 done"
 
 git add .
-git commit -m "add llama3 data changed prompt"
+git commit -m "add llama3 data change to prompt list"
 
 # Mistral
 echo "/bye" | ollama run mistral
@@ -22,6 +22,6 @@ wait $pid
 echo "Running mistral done"
 
 git add .
-git commit -m "add mistral data changed prompt"
+git commit -m "add mistral data change to prompt list"
 
-
+git push origin main
