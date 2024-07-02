@@ -22,12 +22,13 @@ args = parser.parse_args()
 model = os.environ['MODEL']
 
 datasets = ['data/stereoset.csv', 'data/beauty_dataset.csv']
-types = [(True, False), (False, False), (True, True)]
+types = [(True, False), (False, False)]
 
 for dataset_path in datasets:
     dataset = pd.read_csv(dataset_path)
+    dataset = dataset[:300]
     dataset_name = dataset_path.split('/')[-1].split('.')[0]
-
+    
     if 'beauty' in dataset_name:
         beauty = True
     else:
