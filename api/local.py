@@ -28,8 +28,8 @@ def generate_review_local(model: str, query: str) -> str:
             }
         ],
         "stream": False,
-        "temperature": 0.0,
-        "max_tokens": 40,
+        "temperature": 0.25,
+        "max_tokens": 10,
     }
 
     response = requests.post(url, json=data)

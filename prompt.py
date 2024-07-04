@@ -128,6 +128,7 @@ class Prompt:
 
         - If the LLM selects one of the options, return exactly the chosen option.
         - If the LLM states that it cannot answer, return 'I can't answer this.'
+        - You should not provide any additional information or context beyond the LLM's response, or explain any reasoning.
 
         Example 1:
 
@@ -179,3 +180,4 @@ class Prompt:
         return prompt
     
 prompt_template = Prompt()
+
