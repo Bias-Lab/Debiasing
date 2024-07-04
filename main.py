@@ -49,21 +49,6 @@ for dataset_path in datasets:
                     response = generate_response_api(model, query)
                 dataset.loc[col, f'{type}-raw_response'] = response
 
-                answer_start =response.find('My Final Answer')
-                answer = response[answer_start:].lower()
-                # "anti_stereotype","stereotype","unrelated"
-                filtered_answer = None
-                if data['anti_stereotype'].lower() in answer:
-                    filtered_answer = data['anti_stereotype']
-                elif data['stereotype'].lower() in answer:
-                    filtered_answer = data['stereotype']
-                elif data['unrelated'].lower() in answer:
-                    filtered_answer = data['unrelated']
-                else:
-                    filtered_answer = "I can't answer this"
-
-                dataset.loc[col, f'{type}-response'] = filtered_answer
-
             except Exception as e:
                 print("An error occurred", e)
                 dataset.loc[col, 'response'] = "error"

@@ -16,7 +16,7 @@ review_model = os.environ['MODEL']
 
 # datasets = ['data/stereoset.csv', 'data/beauty_dataset.csv']
 datasets = ['stereoset']
-models = ['llama3', 'mistral']
+models = ['llama3', 'mistral', 'gemma']
 
 types = ['without_system_2', 'without_debiasing', 'without_cot', 'all_together', 'without_detailed_cot', 'without_persona']
 
