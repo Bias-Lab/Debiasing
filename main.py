@@ -26,7 +26,6 @@ datasets = ['data/stereoset.csv']
 
 for dataset_path in datasets:
     dataset = pd.read_csv(dataset_path)
-    dataset = dataset[:30]
     dataset_name = dataset_path.split('/')[-1].split('.')[0]
     
     if 'beauty' in dataset_name:
