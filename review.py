@@ -30,8 +30,9 @@ for model in models:
             random.shuffle(option_list)
             for type in types:
                 prompt = prompt_template.create_review_prompt(data[f'{type}-raw_response'], option_list)
-                response = generate_review_local(review_model, prompt)
+                response = generate_review_local(review_model, prompt).strip('"').strip('"""')
                 dataset.at[col, f'{type}-response'] = response
 
         dataset.to_csv(dataset_path, quoting=csv.QUOTE_NONNUMERIC, index=False)
+
 
