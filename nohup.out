@@ -37,3 +37,14 @@ Running gemma done
     from litellm import completion
 ModuleNotFoundError: No module named 'litellm'
 Running llama3 done
+[main 43d9647] add llama3 data no shot
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+[?25l⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠧ [?25h[?25l[2K[1G⠇ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠋ [?25h[?25l[2K[1G⠙ [?25h[?25l[2K[1G⠹ [?25h[?25l[2K[1G⠸ [?25h[?25l[2K[1G⠼ [?25h[?25l[2K[1G⠴ [?25h[?25l[2K[1G⠦ [?25h[?25l[2K[1G⠧ [?25h[?25l[2K[1G⠇ [?25h[?25l[2K[1G⠏ [?25h[?25l[2K[1G⠋ [?25h[?25l[?25l[2K[1G[?25h[2K[1G[?25h Good[?25l[?25hbye[?25l[?25h![?25l[?25h If[?25l[?25h you[?25l[?25h have[?25l[?25h any[?25l[?25h other[?25l[?25h questions[?25l[?25h or[?25l[?25h need[?25l[?25h assistance[?25l[?25h with[?25l[?25h something[?25l[?25h,[?25l[?25h feel[?25l[?25h free[?25l[?25h to[?25l[?25h ask[?25l[?25h.[?25l[?25h I[?25l[?25h'[?25l[?25hm[?25l[?25h here[?25l[?25h for[?25l[?25h you[?25l[?25h.[?25l[?25h Have[?25l[?25h a[?25l[?25h great[?25l[?25h day[?25l[?25h![?25l[?25h
+
+[?25l[?25hTraceback (most recent call last):
+  File "/home/hieuminh65/LLM-Debiasing/main.py", line 11, in <module>
+    from api.remote import generate_response_api
+  File "/home/hieuminh65/LLM-Debiasing/api/remote.py", line 1, in <module>
+    from litellm import completion
+ModuleNotFoundError: No module named 'litellm'
+Running mistral done
