@@ -4,3 +4,9 @@ Traceback (most recent call last):
   File "/home/hieuminh65/LLM-Debiasing/api/remote.py", line 1, in <module>
     from litellm import completion
 ModuleNotFoundError: No module named 'litellm'
+Traceback (most recent call last):
+  File "/home/hieuminh65/LLM-Debiasing/main.py", line 11, in <module>
+    from api.remote import generate_response_api
+  File "/home/hieuminh65/LLM-Debiasing/api/remote.py", line 1, in <module>
+    from litellm import completion
+ModuleNotFoundError: No module named 'litellm'
